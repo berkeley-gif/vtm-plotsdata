@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata xml:lang="en">
+<idinfo>
+<citation>
+<citeinfo>
+<origin>Geospatial Imaging and Informatics Facility, College of Natural Resources, University of California, Berkeley</origin>
+<pubdate>200605</pubdate>
+<title>Wieslander Vegetation Type Mapping Project: All Plot Locations</title>
+<geoform Sync="TRUE">vector digital data</geoform>
+<serinfo Sync="TRUE">
+<sername>Wieslander Vegetation Type Mapping Project</sername>
+<issue>1</issue>
+</serinfo>
+<onlink>http://vtm.berkeley.edu/data/</onlink>
+</citeinfo>
+</citation>
+<descript>
+<abstract>The Wieslander Vegetation Type Map (VTM) collection is a dataset compiled in the 1920s and 30s, consisting of photos, species inventories, plot maps, and vegetation maps covering most of California.  The VTM plots represent locations of the original surveys.</abstract>
+<purpose>These data were digitized from paper maps for use in geographic information systems and digital distribution.</purpose>
+</descript>
+<timeperd>
+<timeinfo>
+<rngdates>
+<begdate>19140813</begdate>
+<enddate>19391217</enddate>
+</rngdates>
+</timeinfo>
+<current>ground condition</current>
+</timeperd>
+<status>
+<progress>Complete</progress>
+<update>As needed</update>
+</status>
+<spdom>
+<bounding Sync="TRUE">
+<westbc Sync="TRUE">-123.99934387207</westbc>
+<eastbc Sync="TRUE">-116.333656311035</eastbc>
+<northbc Sync="TRUE">41.9988327026367</northbc>
+<southbc Sync="TRUE">32.5464553833008</southbc>
+</bounding>
+</spdom>
+<keywords>
+<theme>
+<themekt>None</themekt>
+<themekey>california vegetation "vegetation type map" ecology "historical ecology"</themekey>
+</theme>
+</keywords>
+<accconst>See http://vtm.berkeley.edu/about/terms.php</accconst>
+<useconst>See http://vtm.berkeley.edu/about/terms.php</useconst>
+<ptcontac Sync="TRUE">
+<cntinfo>
+<cntorgp Sync="TRUE">
+<cntorg>Geospatial Imaging and Informatics Facility, College of Natural Resources, University of California, Berkeley</cntorg>
+</cntorgp>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>111 Mulford Hall #3114</address>
+<address Sync="TRUE">Geospatial Imaging and Informatics Facility</address>
+<address>College of Natural Resources</address>
+<city>Berkeley</city>
+<state Sync="TRUE">California</state>
+<postal>94720-3114</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>(510) 643-4539</cntvoice>
+</cntinfo>
+</ptcontac>
+</idinfo>
+<dataqual>
+<logic>All points are repsented as shapefile points.  PLOTKEY is the concatenation of the QUAD and POINTID.</logic>
+<complete>All VTM plot locations present on the VTM plot map for this quad appear in these data.  Some plots may be present that do not appear in the corresponding plot data, due to loss of the original plot datasheets.  Also, plots that appear in the plot data may not appear on the plot map due to omissions on the original VTM plot map.</complete>
+<posacc>
+<horizpa>
+<horizpar>Georeferencing and digitizing the VTM plots involved multiple steps, each of which introduced error.  See http://giifweb.cnr.berkeley.edu/vtm/about/plotmaps.php for more information.</horizpar>
+<qhorizpa>
+<horizpav>462</horizpav>
+<horizpae>Total horizontal error in meters, calculated by taking the square root of the sum of the squares of each component error.</horizpae>
+</qhorizpa>
+</horizpa>
+</posacc>
+<lineage>
+<srcinfo>
+<srccite>
+<citeinfo>
+<origin>VTM</origin>
+<pubdate>200605</pubdate>
+<title>Wieslander Vegetation Type Mapping Project: Plot Maps</title>
+</citeinfo>
+</srccite>
+<typesrc>online</typesrc>
+<srctime>
+<timeinfo>
+<rngdates>
+<begdate>19140813</begdate>
+<enddate>19391217</enddate>
+</rngdates>
+</timeinfo>
+<srccurr>ground condition</srccurr>
+</srctime>
+<srccitea>VTMM</srccitea>
+<srccontr>The georeferenced scan of the VTM plot map showing locations of the VTM plots for this quad was used to as the basis for these plot locations.</srccontr>
+</srcinfo>
+<procstep>
+<procdesc>This shapefile was create by manually creating point in the center of the red circles indicating plot locations on the georeferenced VTM plot map.  POINTID was manually entered, while PLOTKEY, QUAD, and ERROR were calculated.</procdesc>
+<procdate>2005</procdate>
+</procstep>
+</lineage>
+</dataqual>
+<spdoinfo>
+<direct Sync="TRUE">Vector</direct>
+<ptvctinf>
+<sdtsterm Name="vtm-plots">
+<sdtstype Sync="TRUE">Entity point</sdtstype>
+<ptvctcnt Sync="TRUE">16785</ptvctcnt>
+</sdtsterm>
+</ptvctinf>
+</spdoinfo>
+<spref Sync="TRUE">
+<horizsys>
+<planar>
+<mapproj Sync="TRUE">
+<mapprojn Sync="TRUE">Albers Conical Equal Area</mapprojn>
+<albers>
+<stdparll Sync="TRUE">34.000000</stdparll>
+<stdparll Sync="TRUE">40.500000</stdparll>
+<longcm Sync="TRUE">-120.000000</longcm>
+<latprjo Sync="TRUE">0.000000</latprjo>
+<feast Sync="TRUE">0.000000</feast>
+<fnorth Sync="TRUE">-4000000.000000</fnorth>
+</albers>
+</mapproj>
+<planci Name="65_napa_plots">
+<plance Sync="TRUE">coordinate pair</plance>
+<coordrep Sync="TRUE">
+<absres Sync="TRUE">0.000064</absres>
+<ordres Sync="TRUE">0.000064</ordres>
+</coordrep>
+<plandu Sync="TRUE">meters</plandu>
+</planci>
+</planar>
+<geodetic>
+<horizdn Sync="TRUE">North American Datum of 1927</horizdn>
+<ellips Sync="TRUE">Clarke 1866</ellips>
+<semiaxis Sync="TRUE">6378206.400000</semiaxis>
+<denflat Sync="TRUE">294.978698</denflat>
+</geodetic>
+</horizsys>
+</spref>
+<eainfo Sync="TRUE">
+<detailed Name="vtm-plots">
+<enttyp>
+<enttypl Sync="TRUE">vtm-plots</enttypl>
+<enttypd Sync="TRUE">Wieslander Vegetation Type Mapping Project: All Plot Locations</enttypd>
+<enttypds Sync="TRUE">VTM</enttypds>
+</enttyp>
+<attr Sync="TRUE">
+<attrlabl Sync="TRUE">FID</attrlabl>
+<attrdef Sync="TRUE">Internal feature number.</attrdef>
+<attrdefs Sync="TRUE">ESRI</attrdefs>
+<attrdomv Sync="TRUE">
+<udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl Sync="TRUE">Shape</attrlabl>
+<attrdef Sync="TRUE">Feature geometry.</attrdef>
+<attrdefs Sync="TRUE">ESRI</attrdefs>
+<attrdomv>
+<udom Sync="TRUE">Coordinates defining the features.</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl Sync="TRUE">PLOTKEY</attrlabl>
+<attrdef Sync="TRUE">Unique identifier for the plot.  Format is &lt;quad code&gt;&lt;row&gt;&lt;column&gt;&lt;number&gt;, e.g. 65A12 for quad 65, row A, row 1, plot 2.</attrdef>
+<attrdefs Sync="TRUE">VTM</attrdefs>
+<attrdomv>
+<codesetd Sync="TRUE">
+<codesetn>PLOTKEY</codesetn>
+<codesets Sync="TRUE">VTM</codesets>
+</codesetd>
+</attrdomv>
+</attr>
+<attr Sync="TRUE">
+<attrlabl Sync="TRUE">QUAD</attrlabl>
+<attrdef>VTM quad code for the quad that contains the plot.</attrdef>
+<attrdefs Sync="TRUE">VTM</attrdefs>
+<attrdomv>
+<codesetd Sync="TRUE">
+<codesetn>QUAD</codesetn>
+<codesets Sync="TRUE">VTM</codesets>
+</codesetd>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl Sync="TRUE">POINTID</attrlabl>
+<attrdef>Identifier for each plot that is unique within the quad.  The format is based on the map graticule: &lt;row&gt;&lt;column&gt;&lt;number&gt;, e.g. A12 for row A, column 1, plot 2</attrdef>
+<attrdefs>VTM</attrdefs>
+<attrdomv>
+<codesetd>
+<codesetn>POINTID</codesetn>
+<codesets>VTM</codesets>
+</codesetd>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl Sync="TRUE">ERROR</attrlabl>
+<attrdef>Total horizontal error, calculated by taking the square root of the sum of the squares of each component error.</attrdef>
+<attrdefs>VTM</attrdefs>
+<attrdomv>
+<rdom>
+<rdommin>0</rdommin>
+<rdommax>10000</rdommax>
+<attrunit>meters</attrunit>
+</rdom>
+</attrdomv>
+</attr>
+</detailed>
+</eainfo>
+<distinfo>
+<distrib>
+<cntinfo>
+<cntorgp>
+<cntorg>Geospatial Imaging and Informatics Facility, College of Natural Resources, University of California, Berkeley</cntorg>
+</cntorgp>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>111 Mulford Hall #3114</address>
+<address>Geospatial Imaging and Informatics Facility</address>
+<address>College of Natural Resources</address>
+<city>Berkeley</city>
+<state>California</state>
+<postal>94720-3114</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>(510) 643-4539</cntvoice>
+</cntinfo>
+</distrib>
+<resdesc Sync="TRUE">Downloadable Data</resdesc>
+<distliab>The provider of the data has made no explicit or implied warrantee of its fitness for use for any purpose, and that data may have inherent limitations for any intended use. Data may be used only at the user's own risk.</distliab>
+<stdorder>
+<digform>
+<digtinfo>
+<formname>SHP</formname>
+</digtinfo>
+<digtopt>
+<onlinopt>
+<computer>
+<networka>
+<networkr>http://vtm.berkeley.edu</networkr>
+</networka>
+</computer>
+<accinstr>Visit web site and download a Plot Points Shapefile from the Data section</accinstr>
+</onlinopt>
+</digtopt>
+</digform>
+<fees>0</fees>
+</stdorder>
+</distinfo>
+<metainfo>
+<metd Sync="TRUE">20060515</metd>
+<metc>
+<cntinfo>
+<cntperp>
+<cntper>Ken-ichi Ueda</cntper>
+<cntorg>Kelly Lab, ESPM, CNR, University of California, Berkeley</cntorg>
+</cntperp>
+<cntpos>Staff Research Associate II</cntpos>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>127 Mulford Hall #3114</address>
+<address>Ecosystem Sciences Division</address>
+<address>Department of Environmental Sciences, Policy, and Management</address>
+<city>Berkeley</city>
+<state>California</state>
+<postal>94720-3114</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>(510) 642-8322</cntvoice>
+<cntemail>kueda@nature.berkeley.edu</cntemail>
+</cntinfo>
+</metc>
+<metstdn Sync="TRUE">FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+<metstdv Sync="TRUE">FGDC-STD-001-1998</metstdv>
+<mettc Sync="TRUE">local time</mettc>
+</metainfo>
+</metadata>
